@@ -1,50 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Portfolio</title> 
 </head>
 <body>
-    <header>
-        <img src="https://i.postimg.cc/CLgDCMkY/B-logo.jpg" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#projects">Porjects</a></li>
-                <li><a href="#contact">Contacts</a></li>
+    <header> 
+            <img class="logo"  src="https://i.postimg.cc/CLgDCMkY/B-logo.jpg" alt="logo">    
+        <!-- <img class="logo"  src="https://i.postimg.cc/CLgDCMkY/B-logo.jpg" alt="logo"> -->
+        <nav class="menu">
+            <ul class="menu-list">
+                <li><a href="#home">Home</a></li>|
+                <li><a href="#resume">Resume</a></li>|
+                <li><a href="#projects">Projects</a></li>|
+                <li><a href="#contact">Contacts</a></li>|
             </ul>
         </nav>
     </header>
     <main>
         <!--Home-->
         <section id="home">
-         <h2>Home</h2>
-         <div>
-            <h4>Brogan Gys</h4>
-            <img src="https://i.postimg.cc/3JqsbwC4/me.png" alt="Brogans Profile">
-            <p>
-                <ul>Student</ul>
-                <ul>Producer</ul>
-            </p>
-         </div>
+            <h2>Home</h2>
+                <div class="wrapper">
+                    <h4>Brogan Gys</h4>
+                    <img src="https://i.postimg.cc/3JqsbwC4/me.png" alt="Brogans Profile">
+                      <p>Aspiring developer</p>
+                      <p>producer</p>   
+                        
+                </div>
         </section>
         <!--Resume-->
         <section id="resume">
-        <h2>Resume</h2>
+            <h2>Resume</h2>
+            Matriculated at Symphony<br>Year 2022<br>
+            Passed with bachelors
         </section>
 
         <!--Project-->
-        <section id="contact">
-        <h2>Project</h2>
+        <section id="projects">
+            <h2>Project</h2>
+            Projects I have worked on are listed below :
+            <li><a href="https://github.com/Brogy-alt/lifechoices">lifechoices</a></li>
+            <li><a href="https://github.com/Brogy-alt/C11example">C11example</a></li>
+            <!--Git hub link-->
         </section>
 
         <!--Contact-->
-        <section>
-        <h2>Contact</h2>
+        <section id="contact">
+            <h2>Contact</h2>
+            Phone number : 069 516 6923
+            <form action="https://formspree.io/f/xbjbywjp" method="POST">
+                <div>
+                    <label for="#firstname">Name</label>
+                    <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <label for="#surname">Surname</label>
+                    <input id="surname" name="surname" type="text" placeholder="Enter your surname" required>
+                </div>
+                <div>
+                    <label for="#message">Message</label>
+                    <textarea name="message" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="submit">
+                </div>
+            </form>
+            
         </section>
     </main>
+    <footer>
+        <p>Copyright &copy; 2022</p>
+
+        <a href="">
+        <img class="logo"  src="https://i.postimg.cc/CLgDCMkY/B-logo.jpg" alt="logo">   
+        </a>
+    </footer>
 </body>
+
 </html>
