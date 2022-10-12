@@ -95,3 +95,10 @@ footer {
     justify-content: space-between;
     background-color:black
 }
+h1, h2, h3 {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
