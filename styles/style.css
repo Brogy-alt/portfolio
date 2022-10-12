@@ -1,16 +1,20 @@
  /* font */
- /* font-family@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;1,200&family=Questrial&display=swap');
 
  /* Select all elements  */
 *{
     margin: 0;
     padding: 0;
 }
-*,
+
 *::after,
 *::before {
     box-sizing: border-box;
 }
+
+/* h3 ::after { */
+    
+
 /* unvisited link */
 a link {
     color: red;
@@ -72,6 +76,7 @@ list-style: none;
 h1, h2, h3, h4, h5, h6 {
     text-align: left;
     margin-bottom: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 /* home */
 /* #home {
@@ -91,9 +96,9 @@ align-content: center;
 }
 
 footer {
-    display: inline-block;
+    display: inline-flexbox;
     justify-content: space-between;
-    background-color:black
+    background-color:black;
 }
 h1, h2, h3 {
     text-align: center;
