@@ -4,20 +4,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: purple;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: skyblue;
+  }
+
+  /* background color */
+body {
+    background-image: linear-gradient(rgba(145, 43, 145), rgba(49, 73, 214, 0.5)),
+                  url("../../");
+}
 /* header, main, footer */
 header, main, footer {
     min-width: 100%; 
 }
+
 /* header */
 header { 
     display: inline-flex;
     justify-content: space-between;
-    background-color:black
-    
+    background-color:black 
 }
+
 .logo {
     width:6em;
 }
+
  .menu  {
     /* margin: auto 0; */
  }
@@ -26,30 +54,35 @@ header {
 display: inline-flex;   
 list-style: none;
 } 
+
 .menu-list li {
    padding-right: 30px; 
 }
+
 /* Main */
 /* heading */
 h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-    margin-bottom: 15px;
+    text-align: left;
+    margin-bottom: 25px;
 }
 /* home */
-#home {
+/* #home {
     background-color:gray
-}
+} */
 .wrapper {
-min-height: 100vh;
+min-height: 55vh;
 align-content: center;
 }
 .wrapper img {
     display: block;
     margin: 15px auto;
+    height: 350px;
 }
 .wrapper p {
     text-align: center;
 }
+
+
 footer {
     display: inline-block;
     justify-content: space-between;
