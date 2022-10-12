@@ -1,4 +1,7 @@
- /* Select all elements */
+ /* font */
+ /* font-family@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap'); */
+
+ /* Select all elements  */
 *{
     margin: 0;
     padding: 0;
@@ -28,6 +31,8 @@ a:link {
     color: skyblue;
   }
 
+  /* style that will apply to all elements */
+  
   /* background color */
 body {
     background-image: linear-gradient(rgba(145, 43, 145), rgba(49, 73, 214, 0.5)),
@@ -84,7 +89,6 @@ align-content: center;
 .wrapper p {
     text-align: center;
 }
-
 
 footer {
     display: inline-block;
