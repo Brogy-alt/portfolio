@@ -12,12 +12,9 @@
     box-sizing: border-box;
 }
 
-/* h3 ::after { */
-    
-
 /* unvisited link */
 a link {
-    color: red;
+    color: rgb(0, 174, 255);
   }
   
   /* visited link */
@@ -34,12 +31,10 @@ a link {
   a:active {
     color: skyblue;
   }
-
-  /* style that will apply to all elements */
   
   /* background color */
 body {
-    background-image: linear-gradient(rgba(145, 43, 145), rgba(49, 73, 214, 0.5)),
+    background-image: linear-gradient(#912b91, rgba(49, 73, 214, 0.5)),
                   url("../../");
 }
 /* header, main, footer */
@@ -48,11 +43,11 @@ header, main, footer {
 }
 
 /* header */
-header { 
+/* header { 
     display: inline-flex;
     justify-content: space-between;
     background-color:black 
-}
+} */
 
 .logo {
     width:6em;
@@ -70,6 +65,28 @@ list-style: none;
 .menu-list li {
    padding-right: 30px; 
 }
+
+/* topnav */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+  }
+  .topnav a {
+    float: left;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #912b91;
+    color: white;
+  }
 
 /* Main */
 /* heading */
@@ -107,3 +124,4 @@ h1, h2, h3 {
 body {
     text-align: center;
 }
+
