@@ -49,13 +49,14 @@ header, main, footer {
     background-color:black 
 } */
 
+
 .logo {
     width:6em;
 }
 
- .menu  {
+ /* .menu  {
     /* margin: auto 0; */
- }
+ 
 
 .menu-list {
 display: inline-flex;   
@@ -90,23 +91,69 @@ list-style: none;
 
 /* Main */
 /* heading */
-h1, h2, h3, h4, h5, h6 {
-    text-align: left;
-    margin-bottom: 25px;
+ body{
+    text-align: right;
+    /* margin-bottom: 25px; */
     font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 750;
+    font-size: 18px;
 }
 
-/* #home {
-    background-color:gray
-} */
+/* Home section */
+#home {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* About me */
+#about-me {
+  height: 5%;
+
+}
+
+.text {
+  /* margin: auto; */
+  padding-left: 2%;
+  padding-right: 2%;
+}
+/* project images */
+.images{
+  height: 200px;
+  width: 280px;
+  border-radius: 5%;
+  /* gap: 5rem; */
+}
+
+.images:hover{
+  transform: scale(1.1);
+}
+
+.socials {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
 .wrapper {
 min-height: 55vh;
 align-content: center;
+
 }
 .wrapper img {
     display: block;
     margin: 15px auto;
     height: 350px;
+    animation: awesome 3.5s infinite;
+    border-radius: 5%;
 }
 .wrapper p {
     text-align: center;
@@ -116,12 +163,32 @@ footer {
     display: inline-flexbox;
     justify-content: space-between;
     background-color:black;
+    
 }
 h1, h2, h3 {
     text-align: center;
+    font-size: 40px;
 }
 
 body {
     text-align: center;
 }
 
+.copyright{ 
+  color: #ddd;
+}
+
+@keyframes awesome {
+  0% {
+    
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+100%{
+
+}
+  
+}
