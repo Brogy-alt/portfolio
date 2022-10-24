@@ -19,12 +19,12 @@ a link {
   
   /* visited link */
   a:visited {
-    color: purple;
+    color: rgb(198, 27, 198);
   }
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    color: #912b91;
   }
   
   /* selected link */
@@ -44,21 +44,10 @@ header, main, footer {
     min-width: 100%; 
 }
 
-/* header */
-/* header { 
-    display: inline-flex;
-    justify-content: space-between;
-    background-color:black 
-} */
-
-
 .logo {
     width:6em;
 }
 
- /* .menu  {
-    /* margin: auto 0; */
- 
 
 .menu-list {
 display: inline-flex;   
@@ -91,8 +80,6 @@ list-style: none;
     color: white;
   }
 
-/* Main */
-/* heading */
  body{
     text-align: right;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -119,7 +106,6 @@ list-style: none;
   position: absolute;
   
 }
-
 
 
 #about-me {
