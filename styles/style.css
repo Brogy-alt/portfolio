@@ -161,6 +161,7 @@ list-style: none;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
+  
 
 }
 
@@ -178,6 +179,34 @@ list-style: none;
   color: #7C06D6;
 }
 
+.youtube, .instagram, .twitter:hover {
+  transform: scale(2);
+} 
+
+/* Youtube icon hover */
+ #contact .youtube:hover {
+  font-size: 10rem;
+   animation: iconAnimation 1s;
+  transition: all 1s;
+  font-size: 2rem;
+ }  
+
+ /* Instagram icon hover */
+ #contact .instagram:hover {
+  font-size: 10rem;
+   animation: iconAnimation 1s;
+  transition: all 1s;
+  font-size: 2rem;
+ }  
+
+ /* Twitter icon hover */
+ #contact .twitter:hover {
+  font-size: 10rem;
+   animation: iconAnimation 1s;
+  transition: all 1s;
+  font-size: 2rem;
+ }  
+ 
 .wrapper {
 min-height: 55vh;
 align-content: center;
@@ -231,4 +260,13 @@ body {
 
 }
   
+}
+
+@keyframes iconAnimation {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1.2);
+  }
 }
